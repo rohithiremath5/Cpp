@@ -85,5 +85,9 @@ int main()
         cout << (int)x << " ";
     }
 
+        // Get size of the array:
+    int arr6[] = {1, 2, 3, 4, 5};
+    int size6 = sizeof(arr6) / sizeof(arr6[0]);
+    cout << "\nSize of arr6: " << size6 << " elements" << endl;
     return 0;
 }
