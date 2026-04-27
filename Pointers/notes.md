@@ -266,3 +266,26 @@ Ownership management
 Rare cases
 Low-level programming
 Performance-critical code
+
+
+❓ What is reference?
+
+Alias for an existing variable
+
+❓ Difference between pointer and reference?
+
+Pointer stores address, reference is alias
+
+❓ Can reference be null?
+
+❌ No
+
+❓ Can reference be reassigned?
+
+❌ No
+
+❓ Why use reference instead of pointer?
+
+Cleaner, safer, no dereferencing
+
+A reference in C++ is an alias to an existing variable that allows direct access without using pointers.

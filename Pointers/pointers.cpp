@@ -51,5 +51,16 @@ int main()
     ptr++;                                                            // Move to the next element
     cout << "Second element: " << *ptr << "Address: " << ptr << endl; // Output: 20
 
+    // Reference variables:
+    int a = 10;
+    int &ref = a; // ref is a reference to variable a
+
+    cout << "Value of a: " << a << endl;
+    a++;
+    ref++;
+    cout << "Value of a: " << a << endl;     // Output: 12
+    cout << "Value of ref: " << ref << endl; // Output: 12
+    cout << "Address of a: " << &a << " and " << &ref << endl;
+
     return 0;
 }
